@@ -36,3 +36,32 @@
     transform: rotate(360deg);
   }
 }
+
+.fadeOut {
+  opacity:0;
+  width:0;
+  height:0;
+  transition: width 0.5s 0.5s, height 0.5s 0.5s, opacity 0.5s;
+}
+
+.fadeIn {
+  opacity:1;
+  transition: width 1.5s, height 1.5s, opacity 1.5s 1.5s;
+}
+
+.fadeOut-button {
+  opacity:0;
+  /* width:0;
+  height:0; */
+  transition: width 0.5s 0.5s, height 0.5s 0.5s, opacity 0.25s;
+}
+
+.fadeIn-button {
+  opacity:1;
+  transition: width 0.5s, height 0.5s, opacity 1s 1s;
+}
+
+.cookie {
+  width: 294px;
+  height: 238px;
+}
