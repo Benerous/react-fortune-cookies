@@ -8,9 +8,8 @@ export default class Cookie extends Component {
                 <div>
                     <div className="m-md-5 m-4">
                         {
-                            language === "Eng" ? <h3 className={phraseVisibility ? 'fadeOut-button':'fadeIn-button'}>Try your Luck and get an Advice</h3> : 
-                                language === "Ukr" ? <h3 className={phraseVisibility ? 'fadeOut-button':'fadeIn-button'}>Спробуйте свою удачу та отримайте пораду</h3> : 
-                                <h3 className={phraseVisibility ? 'fadeOut-button':'fadeIn-button'}>Испытайте свою удачу и получите ответ</h3>
+                            language === "Eng" ? <h3 className={phraseVisibility ? 'fadeOut-button':'fadeIn-button'}>Think about the Question and get an Answer to It</h3> : 
+                                <h3 className={phraseVisibility ? 'fadeOut-button':'fadeIn-button'}>Придумай запитання та отримай відповідь на нього</h3>
                         }
                     </div>
                     <div className="mx-auto">
@@ -22,9 +21,7 @@ export default class Cookie extends Component {
                             <div className={phraseVisibility ? 'fadeIn-button':'invisible'}>
                                 <button className="btn btn-outline-dark mt-5" onClick={handleReset}>
                                     {
-                                        language === "Eng" ? "Try again" : 
-                                            language === "Ukr" ? "Спробуй ще раз" : 
-                                            "Попробуй еще раз"
+                                        language === "Eng" ? "Try again" : "Спробуй ще раз"
                                     } 
                                 </button>
                             </div>
