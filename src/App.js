@@ -195,7 +195,7 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App container w-100">
+      <div className="App container h-100">
         <Language 
           phraseVisibility={this.state.phraseVisibility}
           languages={this.state.languages}
