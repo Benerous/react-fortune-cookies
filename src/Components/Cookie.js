@@ -20,7 +20,7 @@ export default class Cookie extends Component {
                         <div className={phraseVisibility ? 'fadeIn-button pt-5':'fadeOut-button pt-5'}>
                             <h4> {message} </h4>
                             <div className={phraseVisibility ? 'fadeIn-button':'invisible'}>
-                                <button className="btn btn-outline-dark m-5" onClick={handleReset}>
+                                <button className="btn btn-outline-dark mt-5" onClick={handleReset}>
                                     {
                                         language === "Eng" ? "Try again" : 
                                             language === "Ukr" ? "Спробуй ще раз" : 
